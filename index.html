@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>تطبيق الاقتباسات</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f9f9f9;
+                margin: 0;
+                padding: 40px;
+                direction: rtl;
+            }
+
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: #fff;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .header {
+                margin-bottom: 20px;
+                width: 100%;
+            }
+
+            .header img {
+                height: 500px;
+                width: 100%;
+            }
+
+            h1,
+            h2 {
+                margin-top: 0;
+                font-family: "Courier New", Courier, monospace;
+            }
+
+            h1 {
+                margin-top: 15px;
+            }
+
+            h2 {
+                margin-bottom: 10px;
+            }
+
+            p {
+                margin: 0 0 10px;
+            }
+
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+
+            ul li {
+                margin-bottom: 10px;
+                padding-right: 20px;
+                position: relative;
+            }
+
+            ul li:before {
+                content: "\2022";
+                position: absolute;
+                right: 0;
+                color: #888;
+            }
+
+            .download-btn {
+                display: block;
+                width: 200px;
+                padding: 10px;
+                background-color: #4caf50;
+                color: #fff;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 5px;
+                margin: 20px auto 0;
+            }
+
+            .download-btn:hover {
+                background-color: #3e8e41;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <img src="app.png" alt="تطبيق الاقتباسات" />
+                <h1>تطبيق الاقتباسات</h1>
+            </header>
+            <p>
+                تطبيق يحتوي على مجموعة من الحكم المأثورة والاقتباسات الملهمة من
+                مصادر مختلفة.
+            </p>
+
+            <h2>مزايا التطبيق</h2>
+            <ul>
+                <li>يمكن استخدام التطبيق في نظام الأندرويد و IOS</li>
+                <li>تصميم مميز و بسيط</li>
+                <li>
+                    يحتوي التطبيق على توثيق مناسب لمعرفة كيفية التعديل على
+                    التطبيق و تحويله الى ملف APK كما هو المزيد
+                </li>
+                <li>إضافة و عرض الاقتباسات المفضلة</li>
+                <li>تصفح الاقتباسات من مصادر متعددة</li>
+                <li>حفظ الاقتباسات المفضلة لديك</li>
+                <li>
+                    يمكنك اختيار ان تكون بيانات الاقتباسات تحتاج انترنت ام لا
+                    (يعني العمل ب API)
+                </li>
+                <li>
+                    توجد صفحة "حولنا" التي يمكنك من خلالها وضع معلومات الاتصال
+                    الخاصة بك كرقم الهاتف و البريد الالكتروني ...
+                </li>
+            </ul>
+
+            <a href="https://example.com/quotes-app.apk" class="download-btn"
+                >تحميل التطبيق</a
+            >
+        </div>
+    </body>
+</html>
